@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<html class="no-js blog blogindex blogpage" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+
+
+
+  <script src="/static/scripts/optimizely_5973193136.js"></script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Monzo is a bank that makes life easier, not harder.">
+  <meta name="theme-color" content="#14233C">
+
+  <title> Monzo – Blog</title>
+
+  <link rel="shortcut icon" href="/static/images/favicon.png">
+  <link rel="image_src" href="/static/images/mondo-mark-01.png">
+  <link rel="alternate" type="application/atom+xml" title="Monzo Blog" href="/feed.xml">
+
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog">
+  <meta property="og:url" content="https://monzo.com/blog/">
+  <meta property="og:description" content="Monzo are building a smart bank on your smartphone and we need your help to create the bank of the future.">
+  <meta property="og:image" content="https://monzo.com/static/images/facebook-campaign-image-01.png">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@monzo">
+  <meta name="twitter:title" content="Blog">
+  <meta name="twitter:description" content="Monzo are building a bank as smart as your phone.">
+  <meta name="twitter:image" content="https://monzo.com/static/images/twitter-card.png">
+  <!-- This will disable some Twitter widget features, but the alternative is adding unsafe-inline to our content security policy -->
+  <meta name="twitter:widgets:csp" content="on">
+
+  <!-- Discourse -->
+
+
+
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/sweetalert.min.css">
+  <link rel="stylesheet" href="/static/css/style-attributes.css?v21">
+
+
+
+
+    <link rel="stylesheet" href="/static/css/monzo-framework.min.css?v21">
+
+
+
+
+
+  <style type="text/css" integrity="sha256-Al8PjJrQpA11Yk0Wabx94MAcOMiLh9DgnjOuRlEX0xI=">
+    @-webkit-keyframes swinging{
+      0%{-webkit-transform: rotate(10deg);}
+      50%{-webkit-transform: rotate(-5deg)}
+      100%{-webkit-transform: rotate(10deg);}
+    }
+
+    @keyframes swinging{
+      0%{transform: rotate(10deg);}
+      50%{transform: rotate(-5deg)}
+      100%{transform: rotate(10deg);}
+    }
+
+    .swingimage{
+      -webkit-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+      animation: swinging 3.5s ease-in-out forwards infinite;
+    }
+  </style>
+
+  <!-- Scripts -->
+  <script src="/static/scripts/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <script src="/static/scripts/modernizr.min.js"></script>
+  <script src="/static/scripts/mobile-detect.min.js"></script>
+  <script src="/static/scripts/mobile-detect-modernizr.js"></script>
+  <script src="/static/scripts/sweetalert.min.js"></script>
+
+  <script type="application/javascript" integrity="sha256-390OygQkpMNo57XxE9PxXal13/86RkNpeYV53UiWZH8=">
+    // Twitter widget is loading.
+    window.twttr = function (d, s, id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+    }(document, 'script', 'twitter-wjs');
+  </script>
+
+
+
+
+
+
+
+
+
+
+  <style type="text/css" integrity="sha256-Qv05/NsT/MWFR5NB3hDHRW9iI424uc8WpuRssGdOAsU=">.async-hide { opacity: 0 !important} </style>
+<script type="application/javascript" integrity="sha256-i7vK99mbnpD1ZU16bn47WfMyNoo8ZEOxkHKjIMjAT+4=" src="/static/scripts/ga_analytics.js"></script>
+
+  <style type="text/css" integrity="sha256-34tP8QvyFLTAPs5rSCfYKD1s3A/cws6G9COPRxkoha0=">
+  @media screen and (max-width: 768px) {
+    .c-header.js-scroll-up.is-active {
+      top: 0;
+    }
+  }
+  </style>
+</head>
+
+  <body>
+
+<header class="c-header" id="navigation">
+  <div class="c-header__container">
+    <a href="/" class="c-header__logo" title="Monzo home page">Monzo</a>
+    <nav class="c-header__nav" aria-labelledby="menu-toggle">
+      <button class="c-header__toggle" id="menu-toggle" aria-expanded="false" title="menu" aria-controls="menu">
+        <span class="c-header__open">Menu <span aria-hidden="true">≡</span></span>
+        <span class="c-header__close">Close menu <span aria-hidden="true"><svg width="10" height="10" xmlns="http://www.w3.org/2000/svg"><path d="M5 3.586L8.182.404a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707L6.414 5l3.182 3.182a.5.5 0 0 1 0 .707l-.707.707a.5.5 0 0 1-.707 0L5 6.414 1.818 9.596a.5.5 0 0 1-.707 0L.404 8.89a.5.5 0 0 1 0-.707L3.586 5 .404 1.818a.5.5 0 0 1 0-.707L1.11.404a.5.5 0 0 1 .707 0L5 3.586z" fill="#FFF" fill-rule="evenodd"></path></svg></span></span>
+      </button>
+      <div class="c-header__menu" id="menu" aria-hidden="true">
+        <ul class="c-header__list" role="menu">
+          <li class="c-header__item" role="menuitem"><a href="/about" class="c-header__link">About</a></li>
+          <li class="c-header__item" role="menuitem"><a href="/blog" class="c-header__link" aria-current="page">Blog</a></li>
+          <li class="c-header__item" role="menuitem"><a href="/community" class="c-header__link">Community</a></li>
+          <li class="c-header__item" role="menuitem"><a href="/faq" class="c-header__link">FAQ</a></li>
+        </ul>
+        <a class="c-header__button" href="/download">Sign up</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<script src="/static/scripts//header.js"></script>
+
+
+    <main id="main" class="main">
+      <section class="strip strip--grey cover cover--420 cover-md--500 cover--middle">
+  <div class="container u-padding-bottom-huge u-padding-bottom-none-md">
+    <div class="grid-row u-padding-bottom-huge">
+      <div class="grid-col-12 u-align-center u-padding-bottom-huge">
+        <h1>Monzo Blog</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="strip">
+  <div class="container u-flush-to-top-huge">
+    <div class="grid-row">
+
+
+
+          <article class="c-blog-article c-blog-article--featured o-box o-box--grey grid-col-12-md u-margin-bottom-tiny u-margin-bottom-large-md s_7303" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/06/crowdfunding-in-numbers/" class="c-blog-article__link" aria-hidden="true">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="2018-12-06T15:00:00+00:00">6 Dec 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Crowdfunding in numbers</h2>
+                <p class="c-blog-article__excerpt">You've invested an incredible £20,000,000 in Monzo! We take a look at the numbers behind our latest crowdfunding round.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+          <article class="c-blog-article c-blog-article--featured o-box o-box--grey s_994f" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/05/crowdfunding-closes/" class="c-blog-article__link" aria-hidden="true">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" pubdate="pubdate">5 Dec 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">You’ve invested £20,000,000 in Monzo!</h2>
+                <p class="c-blog-article__excerpt">More than 36,000 of you have invested in Monzo, helping us raise £20,000,000 in just 2 days, 2 hours and 45 minutes!</p>
+              </div>
+            </a>
+          </article>
+
+
+
+          <article class="c-blog-article c-blog-article--featured o-box o-box--grey" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/11/21/deposit-cash/" class="c-blog-article__link" aria-hidden="true">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" pubdate="pubdate">21 Nov 2018</time>
+                <p class="c-blog-article__category">Product Updates</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">You can now pay cash into your Monzo account!</h2>
+                <p class="c-blog-article__excerpt">Starting today, you can deposit cash into your Monzo account at any of the 28,000 convenience stores around the UK that display the PayPoint logo.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+          <article class="c-blog-article c-blog-article--featured o-box o-box--grey" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/11/01/savings-pots/" class="c-blog-article__link" aria-hidden="true">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" pubdate="pubdate">1 Nov 2018</time>
+                <p class="c-blog-article__category">Product Updates</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Get interest paid on your savings!</h2>
+                <p class="c-blog-article__excerpt">Savings Pots let you earn 1% interest on your savings through Monzo. And we’re starting to roll them out today!</p>
+              </div>
+            </a>
+          </article>
+
+
+    </div>
+  </div>
+</section>
+<section class="strip" id="latest">
+  <div class="container">
+    <div class="grid-row grid-row--bottom">
+      <div class="grid-col-6">
+        <h2>Latest posts</h2>
+      </div>
+      <div class="grid-col-6 u-align-right">
+        <a href="latest" class="u-font-size-h4">See all ›</a>
+      </div>
+    </div>
+    <div class="grid-row">
+
+
+
+          <article class="c-blog-article c-blog-article--featured o-box o-box--grey u-margin-bottom-tiny u-margin-bottom-large-md grid-col-12-md s_7303" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/06/crowdfunding-in-numbers/" class="c-blog-article__link" aria-hidden="true">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="6-Dec-2018">6 Dec 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Crowdfunding in numbers</h2>
+                <p class="c-blog-article__excerpt">You've invested an incredible £20,000,000 in Monzo! We take a look at the numbers behind our latest crowdfunding round.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/06/find-your-saving-style/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="6 Dec 2018">6 Dec 2018</time>
+                <p class="c-blog-article__category">How Money Works</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">What's your saving style?</h2>
+                <p class="c-blog-article__excerpt">There are lots of ways to save. But how do you find a method that works for you? Whether you want to save faster, smarter or more reliably, follow these tips to help you put money away.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/05/crowdfunding-closes/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="5 Dec 2018">5 Dec 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">You’ve invested £20,000,000 in Monzo!</h2>
+                <p class="c-blog-article__excerpt">More than 36,000 of you have invested in Monzo, helping us raise £20,000,000 in just 2 days, 2 hours and 45 minutes!</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/05/crowdfunding-starts/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="5 Dec 2018">5 Dec 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Crowdfunding is open to new investors!</h2>
+                <p class="c-blog-article__excerpt">We’re crowdfunding up to £20,000,000, and new investors can invest Monzo now!</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/12/04/refactoring-old-code/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="4 Dec 2018">4 Dec 2018</time>
+                <p class="c-blog-article__category">Technology</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">The Refactathon: Cleaning up old code</h2>
+                <p class="c-blog-article__excerpt">We held an internal hackathon to improve some of the oldest code in the bank! Here’s why that’s good for our engineers and our customers.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/11/30/marriott-data-breach/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="30 Nov 2018">30 Nov 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Live updates: Monzo customers and the Marriott group data breach</h2>
+                <p class="c-blog-article__excerpt">The Marriott hotel group just announced that more than 500 million customers of its Starwood hotels have been affected by a data breach. Based on what we know so far, you shouldn’t be at risk of financial fraud. But we’re keeping track of what’s happening and will let you know if that changes.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+
+
+          <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+            <a href="/blog/2018/11/30/setting-record-straight/" class="c-blog-article__link">
+              <header class="c-blog-article__header">
+                <time class="c-blog-article__date" itemprop="datePublished" datetime="30 Nov 2018">30 Nov 2018</time>
+                <p class="c-blog-article__category">Monzo HQ</p>
+              </header>
+              <div class="c-blog-article__content" itemprop="text">
+                <h2 class="c-blog-article__title" itemprop="headline">Setting the record straight on our crowdfunding round</h2>
+                <p class="c-blog-article__excerpt">This morning, a Times writer published an article claiming we are lending money to customers to buy shares in a supposed “overdraft offer” as part of our recently announced crowdfunding round. I want to set the record straight.</p>
+              </div>
+            </a>
+          </article>
+
+
+
+    </div>
+    <div class="grid-row grid-row--center">
+      <div class="grid-col-12 grid-col-4-md u-align-center">
+        <a href="latest" class="o-button-text">See all Latest posts ›</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="strip" id="ProductUpdates">
+    <div class="container">
+      <div class="grid-row grid-row--bottom">
+        <div class="grid-col-8">
+          <h2>Product Updates</h2>
+        </div>
+        <div class="grid-col-4 u-align-right">
+
+            <a href="/blog/product-updates" class="u-font-size-h4">See all ›</a>
+
+        </div>
+      </div>
+      <div class="grid-row">
+
+
+
+
+
+
+
+
+
+
+              <article class="c-blog-article c-blog-article--featured o-box o-box--grey grid-col-12-md u-margin-bottom-tiny u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork" style="">
+                <a href="/blog/2018/11/22/business-banking/" class="c-blog-article__link" aria-hidden="true">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="22-Nov-2018">22 Nov 2018</time>
+                    <p class="c-blog-article__category">Product Updates</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">We’re planning to launch a business current account</h2>
+                    <p class="c-blog-article__excerpt">We’re in the very early stages of exploring business bank accounts, and we’re applying for some funding to help us.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/21/deposit-cash/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="21 Nov 2018">21 Nov 2018</time>
+                    <p class="c-blog-article__category">Product Updates</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">You can now pay cash into your Monzo account!</h2>
+                    <p class="c-blog-article__excerpt">Starting today, you can deposit cash into your Monzo account at any of the 28,000 convenience stores around the UK that display the PayPoint logo.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/20/why-we-are-lending/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="20 Nov 2018">20 Nov 2018</time>
+                    <p class="c-blog-article__category">Product Updates</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">Why we’re lending</h2>
+                    <p class="c-blog-article__excerpt">We want to lend money in a way that’s fair, transparent, and helps you achieve your goals.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/20/flexible-budgeting/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="20 Nov 2018">20 Nov 2018</time>
+                    <p class="c-blog-article__category">Product Updates</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">We’re making Summary more flexible</h2>
+                    <p class="c-blog-article__excerpt">We’re updating Summary so you can budget in a way that works for you.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+      </div>
+
+
+        <div class="grid-row grid-row--center">
+          <div class="grid-col-12 grid-col-4-md u-align-center">
+            <a href="/blog/product-updates" class="o-button-text">See all Product Updates posts ›</a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="strip" id="HowMoneyWorks">
+    <div class="container">
+      <div class="grid-row grid-row--bottom">
+        <div class="grid-col-8">
+          <h2>How Money Works</h2>
+        </div>
+        <div class="grid-col-4 u-align-right">
+
+            <a href="/blog/how-money-works" class="u-font-size-h4">See all ›</a>
+
+        </div>
+      </div>
+      <div class="grid-row">
+
+
+
+
+
+
+
+
+
+
+              <article class="c-blog-article c-blog-article--featured o-box o-box--grey grid-col-12-md u-margin-bottom-tiny u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork" style="">
+                <a href="/blog/2018/12/06/find-your-saving-style/" class="c-blog-article__link" aria-hidden="true">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="6-Dec-2018">6 Dec 2018</time>
+                    <p class="c-blog-article__category">How Money Works</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">What's your saving style?</h2>
+                    <p class="c-blog-article__excerpt">There are lots of ways to save. But how do you find a method that works for you? Whether you want to save faster, smarter or more reliably, follow these tips to help you put money away.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/28/how-to-save-for-a-wedding/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="28 Nov 2018">28 Nov 2018</time>
+                    <p class="c-blog-article__category">How Money Works</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">How to save for a wedding</h2>
+                    <p class="c-blog-article__excerpt">The average cost of a wedding in the UK is £32,273. Learn how to budget and save for your wedding ceremony, reception and honeymoon in three steps.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/27/how-to-save-for-retirement/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="27 Nov 2018">27 Nov 2018</time>
+                    <p class="c-blog-article__category">How Money Works</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">How to save for retirement</h2>
+                    <p class="c-blog-article__excerpt">Saving for retirement is important if you want to spend your twilight years in comfort. We’ve got some solid guidance to give you a headstart.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/11/23/what-is-crowdfunding/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="23 Nov 2018">23 Nov 2018</time>
+                    <p class="c-blog-article__category">How Money Works</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">What is crowdfunding?</h2>
+                    <p class="c-blog-article__excerpt">Crowdfunding is a way to raise money from a large number of people. We’ve explained how it works and what to consider before becoming a funder.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+      </div>
+
+
+        <div class="grid-row grid-row--center">
+          <div class="grid-col-12 grid-col-4-md u-align-center">
+            <a href="/blog/how-money-works" class="o-button-text">See all How Money Works posts ›</a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section class="strip" id="Monzo101">
+    <div class="container">
+      <div class="grid-row grid-row--bottom">
+        <div class="grid-col-8">
+          <h2>Monzo 101</h2>
+        </div>
+        <div class="grid-col-4 u-align-right">
+
+            <a href="/blog/monzo-101" class="u-font-size-h4">See all ›</a>
+
+        </div>
+      </div>
+      <div class="grid-row">
+
+
+
+
+
+
+
+
+
+
+              <article class="c-blog-article c-blog-article--featured o-box o-box--grey grid-col-12-md u-margin-bottom-tiny u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork" style="">
+                <a href="/blog/2018/10/22/monzo-fscs-protection/" class="c-blog-article__link" aria-hidden="true">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="22-Oct-2018">22 Oct 2018</time>
+                    <p class="c-blog-article__category">Monzo 101</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">What is FSCS protection?</h2>
+                    <p class="c-blog-article__excerpt">Did you know that up to £85,000 of the money in your Monzo account is protected by the government?</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/09/07/new-to-the-uk/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="7 Sep 2018">7 Sep 2018</time>
+                    <p class="c-blog-article__category">Monzo 101</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">New to the UK? Open a bank account in minutes with Monzo</h2>
+                    <p class="c-blog-article__excerpt">Opening a current account with Monzo takes less than 10 minutes, and you can sign up straight from your phone. You don’t need to provide proof of address – just download the Monzo app to get started!</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/09/05/monzo-bank-statements/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="5 Sep 2018">5 Sep 2018</time>
+                    <p class="c-blog-article__category">Monzo 101</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">How to get a bank statement from Monzo</h2>
+                    <p class="c-blog-article__excerpt">You can download bank statements for any month from the Monzo app!</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+
+              <article class="c-blog-article o-box o-box--grey grid-col-6-md grid-col-4-lg u-margin-bottom-large-md" itemscope itemtype="http://schema.org/CreativeWork">
+                <a href="/blog/2018/09/04/move-your-salary-to-monzo/" class="c-blog-article__link">
+                  <header class="c-blog-article__header">
+                    <time class="c-blog-article__date" itemprop="datePublished" datetime="4 Sep 2018">4 Sep 2018</time>
+                    <p class="c-blog-article__category">Monzo 101</p>
+                  </header>
+                  <div class="c-blog-article__content" itemprop="text">
+                    <h2 class="c-blog-article__title" itemprop="headline">How to get your salary paid into your Monzo account</h2>
+                    <p class="c-blog-article__excerpt">There are a few ways to add money to your Monzo account, including getting your salary paid straight in.</p>
+                  </div>
+                </a>
+              </article>
+
+
+
+
+      </div>
+
+
+        <div class="grid-row grid-row--center">
+          <div class="grid-col-12 grid-col-4-md u-align-center">
+            <a href="/blog/monzo-101" class="o-button-text">See all Monzo 101 posts ›</a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+<footer class="c-footer">
+  <div class="container">
+    <nav class="grid-row">
+      <div class="grid-col-12 grid-col-1-md">
+        <img class="logo" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="38" alt="">
+      </div>
+      <div class="grid-col-6 grid-col-2-md">
+        <ul class="o-no-bullet-list">
+          <li><a class="c-footer__link" href="/about">About us</a></li>
+          <li><a class="c-footer__link" href="/blog">Blog</a></li>
+          <li><a class="c-footer__link" href="/press">Press</a></li>
+          <li><a class="c-footer__link" href="/careers">Careers</a></li>
+          <li><a href="https://web.monzo.com" class="c-footer__link">Lost your phone and card?</a></li>
+        </ul>
+      </div>
+      <div class="grid-col-6 grid-col-2-md">
+        <ul class="o-no-bullet-list">
+          <li><a class="c-footer__link" href="/community">Community</a></li>
+          <li><a class="c-footer__link" href="/community/making-monzo">Making Monzo</a></li>
+          <li><a class="c-footer__link" href="/transparency">Transparency</a></li>
+          <li><a class="c-footer__link" href="/blog/how-money-works">How money works</a></li>
+          <li><a class="c-footer__link" href="/tone-of-voice">Our tone of voice</a></li>
+        </ul>
+      </div>
+      <div class="grid-col-6 grid-col-2-md">
+        <ul class="o-no-bullet-list">
+          <li><a class="c-footer__link" href="/faq" aria-label="Frequently Asked Questions">FAQ</a></li>
+          <li><a class="c-footer__link" href="/legal/terms-and-conditions">Terms &amp; Conditions</a></li>
+          <li><a class="c-footer__link" href="/legal/fscs-information">FSCS information</a></li>
+          <li><a class="c-footer__link" href="/legal/privacy-policy">Privacy Policy</a></li>
+          <li><a class="c-footer__link" href="/legal/cookie-policy">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div class="grid-col-12 grid-col-5-md u-align-center u-align-right-md">
+        <p class="u-margin-top u-margin-top-none-md">
+          <a href="https://itunes.apple.com/gb/app/mondo/id1052238659" class="o-badge-ios appstore-outbound-link" title="External link to the iOS app store">Download the Monzo app on iOS</a>
+          <a href="/-play-store-redirect" class="o-badge-android play-store-outbound-link" title="External link to the Google play store">Download the Monzo app on Android</a>
+        </p>
+        <nav class="c-footer__social">
+          <a class="c-footer__social-link" href="https://twitter.com/monzo">
+            <img src="https://d33wubrfki0l68.cloudfront.net/7c4833acc25609b5b10eb8fa93eda189c6499943/375bf/static/images/twitter.svg" alt="Twitter">
+          </a>
+          <a class="c-footer__social-link" href="https://www.facebook.com/monzobank">
+            <img src="https://d33wubrfki0l68.cloudfront.net/78c691dfe4746cb8a7c995d185d9ae2303a81eb2/efc18/static/images/facebook.svg" alt="Facebook">
+          </a>
+          <a class="c-footer__social-link" href="https://www.linkedin.com/company/monzo-bank">
+            <img src="https://d33wubrfki0l68.cloudfront.net/736e5ecac35e0ff72b923877cfffef4abf57edce/73171/static/images/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a class="c-footer__social-link" href="https://www.youtube.com/monzobank">
+            <img src="https://d33wubrfki0l68.cloudfront.net/35aba7d7de6c8cb76e23f3ea072cdda077a9ecf0/434bf/static/images/youtube.svg" alt="Youtube">
+          </a>
+        </nav>
+      </div>
+    </nav>
+  </div>
+  <div class="c-footer__disclaimer">
+    <div class="container">
+      <div class="grid-row">
+        <div class="grid-col-12">
+          <ul class="o-inline-list">
+            <li class="o-inline-list__item">Existing customers</li>
+            <li class="o-inline-list__item u-margin-left-large-md"><a class="c-footer__link" href="/cdn-cgi/l/email-protection#95fdf0f9e5d5f8fafbeffabbf6faf8"><span class="__cf_email__" data-cfemail="e189848d91a18c8e8f9b8ecf828e8c">[email&#160;protected]</span></a></li>
+          </ul>
+        </div>
+        <div class="grid-col-12 grid-col-8-md u-padding-top-md">
+          <p>
+            Monzo Bank Limited is a company registered in England and Wales (No. 09446231).
+            Monzo Bank Ltd is authorised by the Prudential Regulation Authority (PRA) and
+            regulated by the Financial Conduct Authority and the PRA.
+            Our Financial Services Register number is 730427.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="/static/scripts/raven.min.js"></script>
+  <script type="application/javascript" integrity="sha256-8xdn5GqVxbjYtW87OpJhEneS+xJbwCBQM+lFKnLCNyQ=">
+    var GIT_COMMIT = '28c246bd6c437d09fd6e5a2372f46be3abec984a';
+    Raven
+      .config('https://af042385e52a4bbeb38110405e88a21f@sentry.io/144332', {
+        release: GIT_COMMIT,
+        tags: {
+          git_commit: GIT_COMMIT
+        }
+      })
+      .install();
+  </script>
+
+
+
+
+<script type="text/javascript" src="/bower_components/zepto/zepto.js"></script>
+<script type="text/javascript" src="/static/scripts/open-in-webview.js?v21"></script>
+
+
+  <!-- Libraries -->
+  <script type="text/javascript" src="/static/scripts/utils.js?v21"></script>
+  <script type="text/javascript" src="/static/scripts/config.js?v21"></script>
+  <script type="text/javascript" src="/static/scripts/third-party/lytics.js?v21"></script>
+  <script type="text/javascript" src="/static/scripts/cookie-policy.js?v21"></script>
+
+
+
+
+<!-- custom_js -->
+
+
+
+
+<script type="text/javascript" defer src="/static/scripts/main.js?v21"></script>
+<script type="text/javascript" defer src="/static/scripts/sticky-header.js?v21"></script>
+
+<!-- Facebook Pixel Code -->
+<script type="application/javascript" integrity="sha256-Pqy83833j5AlzOzu2W5msX3MkOOawN/I0quzmHajNEA=">
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1442053056123622');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" src="https://www.facebook.com/tr?id=1442053056123622&amp;ev=PageView&amp;noscript=1" alt="" class="s_6e22">
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Twitter Conversion Tracking -->
+<script defer src="https://platform.twitter.com/oct.js"></script>
+<!-- End Twitter Conversion Tracking -->
+
+<!-- Google Code for Remarketing Tag -->
+<!--
+ Remarketing tags may not be associated with personally identifiable information
+ or placed on pages related to sensitive categories. See more information and
+ instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+-->
+<script type="application/javascript" integrity="sha256-kZrtHb9nFvygg+0mXmZt81rsI66inUQjuAYdMdkHcf8=">
+  /* <![CDATA[ */
+  var google_conversion_id = 863263319;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<!-- <script defer src="https://www.googleadservices.com/pagead/conversion.js"></script> -->
+<noscript>
+  <div class="s_a915">
+      <img height="1" width="1" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/863263319/?guid=ON&amp;script=0" class="s_3593">
+  </div>
+</noscript>
+<!-- End Google Code for Remarketing Tag -->
+
+<script type="text/javascript" integrity="sha256-IC0mj8WvhxWkUpXrBHAAoLapzHl2RGumQl492i29p5I=" src="/static/scripts/outbound-links.js"></script>
+
+<script type="application/javascript" integrity="sha256-4DuM0VJuIHfVnUg5TzFrVEF9Y6GyjUpZ6f6rV4fbZKo=">
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1109810512370162',
+      xfbml      : true,
+      version    : 'v2.4'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+  </body>
+</html>
