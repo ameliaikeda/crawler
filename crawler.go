@@ -51,11 +51,7 @@ func (c *crawler) Process() (*node.Node, error) {
 	return c.base, nil
 }
 
-// New creates a new crawler struct, set up to process the given URL.
-// `concurrency` is how many concurrent requests can be active while processing;
-// `depth` is how many links to follow to go when crawling the site.
-// `done` is a function to call when crawling is finished.
-// It should be the cancelFunc for the context passed to Process.
+// New creates a new Crawler, set up to process the given URL.
 func New(site string, config *Config) (Crawler, error) {
 	u, err := url.Parse(site)
 	if err != nil {
